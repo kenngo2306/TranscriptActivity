@@ -1,5 +1,5 @@
 package main;
-
+//testing it
 public class CourseEnrollment
 {
 	private String courseCode;

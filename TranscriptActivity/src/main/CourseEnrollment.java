@@ -20,22 +20,27 @@ public class CourseEnrollment
 	{
 		return courseCode;
 	}
+	
 	public void setCourseCode(String courseCode)
 	{
 		this.courseCode = courseCode;
 	}
+	
 	public int getCredit()
 	{
 		return credit;
 	}
+	
 	public void setCredit(int credit)
 	{
 		this.credit = credit;
 	}
+	
 	public String getGrade()
 	{
 		return grade;
 	}
+	
 	public void setGrade(String grade)
 	{
 		this.grade = grade;
@@ -65,6 +70,4 @@ public class CourseEnrollment
 			return 0;
 		}
 	}
-	
-	
 }

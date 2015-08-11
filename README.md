@@ -3,24 +3,20 @@ You have written invoice applications that are limited by the fact that you were
 
 It must have these classes
 
-Name	Description
-Validator	Provides methods that accept and validate user 
-input.
-CourseEnrollment	Represents a course enrollment, which includes 
-a course code, credits, and grade.
-Transcript	Represents a single student's transcript. The course enrollments are 
-represented by an array list.
-TranscriptApp	Contains the main method for the Transcript
-application.
-Transcript Class Information
+*Name:	Description
+*Validator:	Provides methods that accept and validate user input.
+*CourseEnrollment:	Represents a course enrollment, which includes a course code, credits, and grade.
+*Transcript:	Represents a single student's transcript. The course enrollments are represented by an array list.
+*TranscriptApp:	Contains the main method for the Transcript application.
 
-Constructor
+------
+*Transcript Class Information
+    -Constructor
+      Transcript()
 
-Transcript()
+    -Methods
 
-Methods
-
-void addCourse(CourseEnrollment courseenrollment)
-ArrayList getCourses()
-double getOverallGPA()
-String getFormattedGPA()
+      void addCourse(CourseEnrollment courseenrollment)
+      ArrayList getCourses()
+      double getOverallGPA()
+      String getFormattedGPA()

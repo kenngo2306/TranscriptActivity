@@ -11,12 +11,19 @@ It must have these classes
 
 ------
 *Transcript Class Information
-    -Constructor
+
+---
+-Constructor
+
       Transcript()
+---
+-Methods
 
-    -Methods
+void addCourse(CourseEnrollment courseenrollment)
 
-      void addCourse(CourseEnrollment courseenrollment)
-      ArrayList getCourses()
-      double getOverallGPA()
-      String getFormattedGPA()
+ArrayList getCourses()
+
+double getOverallGPA()
+
+String getFormattedGPA()
+
